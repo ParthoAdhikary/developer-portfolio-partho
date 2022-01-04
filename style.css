@@ -32,12 +32,14 @@ header ul li:hover{
 .text-white{
     color: white;
 }
-section{
+.flexdiv{
     display: flex;
 }
 .section1{
     width: 50%;
     padding: 5%;
+    margin-top: 0%;
+    margin-bottom: 5%;
 }
 .section1 img{
     width: 80%;
@@ -63,8 +65,9 @@ section{
 .wordstyle{
     text-align: justify;
     font-size: 20px;
+    padding: 20px;
 }
-section div h1 span{
+.font50{
     font-size: 50px;
 }
 section div h4{
@@ -76,8 +79,10 @@ section div h4{
     margin-top: 0px;
 }
 #dreamtext{
-    color: red;
-    text-shadow: 4px 4px 10px white;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    text-shadow: 4px 4px 10px rgb(255, 7, 7);
 }
 .dreamback{
     background-image: url(images/dream-bg.png);
@@ -85,6 +90,27 @@ section div h4{
     background-position: right;
 }
 #dreamh4{
-    margin-top: 10px;
-    margin-bottom: 0;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 50pxpx;
+}
+#exp{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-top: 0%;
+}
+.newexp{
+    width: 40%;
+    padding: 0px 10px 0px 20px;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.boxshadow{
+    box-shadow: 5px 5px 40px 20px red;
 }
