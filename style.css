@@ -1,12 +1,24 @@
 body,html{
     min-height: 100%;
 }
-
+#logo{
+    float: left;
+}
+#logo-name{
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin: 12px 12px 12px 18px;
+    padding: 8px;
+    box-shadow: 5px 5px 40px 20px black;
+    border-radius: 5px;
+ } 
 body{
     font-family: 'Roboto Condensed', sans-serif;
     background-image: url(images/dodybackground.jpg); 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 .header{
     background-image: linear-gradient(to right, red, orange);
@@ -42,7 +54,7 @@ header ul li:hover{
     margin-bottom: 5%;
 }
 .section1 img{
-    width: 80%;
+    width: 100%;
 }
 .color-orange{
     color: orange;
@@ -113,4 +125,9 @@ section div h4{
 }
 .boxshadow{
     box-shadow: 5px 5px 40px 20px red;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
 }
