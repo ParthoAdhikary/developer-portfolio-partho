@@ -14,6 +14,7 @@ body,html{
     border-radius: 5px;
  } 
 body{
+    margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
     background-image: url(images/dodybackground.jpg); 
     background-repeat: no-repeat;
