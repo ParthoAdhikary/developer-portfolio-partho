@@ -37,7 +37,7 @@ section{
 }
 .section1{
     width: 50%;
-    padding: 2%;
+    padding: 5%;
 }
 .section1 img{
     width: 80%;
@@ -55,7 +55,7 @@ section{
 }
 .text-larg{
     font-size: 100px;
-margin-top: 0px;}
+    margin-top: 0px;}
 .bgimg{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
@@ -83,4 +83,8 @@ section div h4{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#dreamh4{
+    margin-top: 10px;
+    margin-bottom: 0;
 }
