@@ -1,0 +1,86 @@
+body,html{
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(images/dodybackground.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-image: linear-gradient(to right, red, orange);
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+header ul li{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+header ul li a{
+    color: blue;
+    text-decoration: none;
+}
+header ul li:hover{
+    background-color: seashell;
+    color: black;
+}
+.text-white{
+    color: white;
+}
+section{
+    display: flex;
+}
+.section1{
+    width: 50%;
+    padding: 2%;
+}
+.section1 img{
+    width: 80%;
+}
+.color-orange{
+    color: orange;
+}
+.linkbutton{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.text-larg{
+    font-size: 100px;
+margin-top: 0px;}
+.bgimg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.wordstyle{
+    text-align: justify;
+    font-size: 20px;
+}
+section div h1 span{
+    font-size: 50px;
+}
+section div h4{
+    font-size: 25px;
+}
+#dreamimg{
+    border: 5px solid rosybrown;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+#dreamtext{
+    color: red;
+    text-shadow: 4px 4px 10px white;
+}
+.dreamback{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
